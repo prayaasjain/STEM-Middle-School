@@ -38,7 +38,7 @@
     
     [[UIMenuController sharedMenuController] setMenuItems:menuItems];
      NSLog(@"%@",[UIMenuController sharedMenuController].menuItems.debugDescription);
-    
+
 }
 
 
@@ -65,7 +65,7 @@
     PSPDFMenuItem *searchItem = [[PSPDFMenuItem alloc] initWithTitle:NSLocalizedString(@"Web Search", nil) block:^{
     
         NSString *trimmedSearchText = PSPDFTrimString(selectedText);
-        [sharedManager.searchBundle setObject:trimmedSearchText forKey:@"SEARCH"];
+        //[sharedManager.searchBundle setObject:trimmedSearchText forKey:@"SEARCH"];
         [self showSearchWithString:trimmedSearchText];
     
     } identifier:@"Web Search"];

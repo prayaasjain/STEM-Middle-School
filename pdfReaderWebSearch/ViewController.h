@@ -14,13 +14,17 @@
 
 @class ShowPDFViewController;
 
-@interface ViewController : UIViewController <UIPopoverControllerDelegate>
+@interface ViewController : UIViewController <UIPopoverControllerDelegate> {
+    MyManager *sharedManager;
+}
 
 @property (nonatomic,strong) SearchType *currentSearchEngine;
 @property (weak, nonatomic) IBOutlet UIButton *selectSearchButton;
 @property (weak, nonatomic) IBOutlet UITextField *searchTextField;
 @property (weak) NSString *highlighted;
 @property (weak) ShowPDFViewController *show;
+@property (strong) NSMutableArray *searchEngines;
 - (IBAction)backButton:(id)sender;
 
+-(SearchType*)findSearchObjectForString:(NSString*)title;
 @end

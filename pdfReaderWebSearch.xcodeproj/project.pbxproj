@@ -68,7 +68,7 @@
 		D8BFB89C180CACE0002DA2E0 /* PSPDFKit-Version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PSPDFKit-Version"; sourceTree = "<group>"; };
 		D8BFB89D180CACE0002DA2E0 /* PSPDFKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PSPDFKit.bundle; sourceTree = "<group>"; };
 		D8BFB89E180CACE0002DA2E0 /* PSPDFKit.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PSPDFKit.xcconfig; sourceTree = "<group>"; };
-		D8D1F7901770D2840011A103 /* STEM Middle School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEM Middle School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D1F7901770D2840011A103 /* STEM Juniors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEM Juniors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D1F7931770D2840011A103 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8D1F7951770D2840011A103 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8D1F7971770D2840011A103 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,7 +148,7 @@
 		D8D1F7911770D2840011A103 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8D1F7901770D2840011A103 /* STEM Middle School.app */,
+				D8D1F7901770D2840011A103 /* STEM Juniors.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,7 +231,7 @@
 			);
 			name = pdfReaderWebSearch;
 			productName = pdfReaderWebSearch;
-			productReference = D8D1F7901770D2840011A103 /* STEM Middle School.app */;
+			productReference = D8D1F7901770D2840011A103 /* STEM Juniors.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -405,17 +405,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Prayaas Jain (L6TC4F6593)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prayaas Jain (L6TC4F6593)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/prayaasjain/pdfReaderWebSearch/PSPDFKit.embeddedframework,
+					../pdfReaderWebSearch/PSPDFKit.embeddedframework,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pdfReaderWebSearch/pdfReaderWebSearch-Prefix.pch";
 				INFOPLIST_FILE = "pdfReaderWebSearch/pdfReaderWebSearch-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "STEM Middle School";
+				PRODUCT_NAME = "STEM Juniors";
 				PROVISIONING_PROFILE = "434D9EC3-7C63-4244-9678-92705AFA946D";
 				SDKROOT = iphoneos6.1;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -427,17 +427,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Prayaas Jain (L6TC4F6593)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prayaas Jain (L6TC4F6593)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/prayaasjain/pdfReaderWebSearch/PSPDFKit.embeddedframework,
+					../pdfReaderWebSearch/PSPDFKit.embeddedframework,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pdfReaderWebSearch/pdfReaderWebSearch-Prefix.pch";
 				INFOPLIST_FILE = "pdfReaderWebSearch/pdfReaderWebSearch-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "STEM Middle School";
+				PRODUCT_NAME = "STEM Juniors";
 				PROVISIONING_PROFILE = "434D9EC3-7C63-4244-9678-92705AFA946D";
 				SDKROOT = iphoneos6.1;
 				TARGETED_DEVICE_FAMILY = 2;
