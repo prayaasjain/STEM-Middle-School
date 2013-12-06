@@ -26,6 +26,9 @@
     [self setRestorationIdentifier:@"showpdf"];
     self.delegate = self;
     self.rightBarButtonItems = [self.rightBarButtonItems arrayByAddingObject:searchButton];
+    //NSLog(@"AA %@",self.rightBarButtonItems.description);
+    
+ 
     
     sharedManager = [MyManager sharedManager];
     
@@ -43,8 +46,13 @@
 
 
 - (NSArray *)pdfViewController:(PSPDFViewController *)pdfController shouldShowMenuItems:(NSArray *)menuItems atSuggestedTargetRect:(CGRect)rect forAnnotations:(NSArray *)annotations inRect:(CGRect)annotationRect onPageView:(PSPDFPageView *)pageView {
-    
-    return menuItems; 
+    NSMutableArray *newMenuItems = [[NSMutableArray alloc] initWithArray:menuItems];
+    NSLog(@"%@",menuItems.description);
+    for (PSPDFMenuItem *item in menuItems) {
+        if([item.identifier isEqual:@"Stamp"] || [item.identifier isEqual:@"Signature"] || [item.identifier isEqual:@"Polygon"] || [item.identifier isEqual:@"PolyLine"] || [item.identifier isEqual:@"Image"])
+            [newMenuItems removeObject:item];
+    }
+    return newMenuItems;
 }
 
 - (NSArray *)pdfViewController:(PSPDFViewController *)pdfController shouldShowMenuItems:(NSArray *)menuItems atSuggestedTargetRect:(CGRect)rect forSelectedText:(NSString *)selectedText inRect:(CGRect)textRect onPageView:(PSPDFPageView *)pageView {
