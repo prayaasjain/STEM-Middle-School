@@ -15,6 +15,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Override point for customization after application launch.
+    
     // Activates PSPDFKit for com.stem-ed.pdfReaderWebSearch
     PSPDFSetLicenseKey("tQZSWNVoyCGSu4B4t0Rpyuokcj9EfcsiFkFTFUYl7oFTypRwv4DfMrNBU3IP"
                        "3YTsRQxylr7sJZJBo/FTr+hLG165vS38Lgjhf96eYYQeyjFnishNS7CI8yd9"
@@ -26,7 +28,6 @@
                        "ULpJg+6PyeQEWvcHhXqlDysrw6g5RIr8C0aCC3vEMLWfybaVwo/d+Yw409gi"
                        "oAzYyZswXyE=");
     
-    // Override point for customization after application launch.
     return YES;
 }
 							

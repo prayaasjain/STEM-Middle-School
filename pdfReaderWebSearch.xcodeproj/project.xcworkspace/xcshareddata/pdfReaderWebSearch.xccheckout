@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ED7315BE-A809-4B76-A3A9-C6B4A06EF936</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pdfReaderWebSearch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05AC05FB-077D-435D-BFB6-8F16DDD50290</key>
+		<string>https://github.com/prayaasjain/STEM-Middle-School.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pdfReaderWebSearch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05AC05FB-077D-435D-BFB6-8F16DDD50290</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/prayaasjain/STEM-Middle-School.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05AC05FB-077D-435D-BFB6-8F16DDD50290</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05AC05FB-077D-435D-BFB6-8F16DDD50290</string>
+			<key>IDESourceControlWCCName</key>
+			<string>STEM-Middle-School</string>
+		</dict>
+	</array>
+</dict>
+</plist>
