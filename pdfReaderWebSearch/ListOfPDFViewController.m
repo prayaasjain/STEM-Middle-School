@@ -49,7 +49,8 @@ static NSString *kDeletePartialTitle = @"Delete (%d)";
     [self setRestorationIdentifier:@"list"];
     
     self.tableView.separatorColor = [UIColor clearColor];
-    backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg_wood.png"]];
+    backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bookshelfbg4.jpg"]];
+    
     self.tableView.backgroundView = backgroundImage;
     self.navigationController.navigationBar.topItem.prompt = @"The STEM Education Group";
     self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
@@ -143,6 +144,7 @@ static NSString *kDeletePartialTitle = @"Delete (%d)";
     docTitle = [NSString stringWithString:[[[listOfPDF objectAtIndex:indexPath.row] componentsSeparatedByString:mstring] componentsJoinedByString:@""]];
     NSCharacterSet *remove = [NSCharacterSet characterSetWithCharactersInString:@"/"];
     docTitle = [[docTitle componentsSeparatedByCharactersInSet:remove] componentsJoinedByString:@""];
+    docTitle = [[docTitle componentsSeparatedByString:@".pdf"] componentsJoinedByString:@""];
 
     cell.textLabel.text = docTitle;
     cell.imageView.image = [self thumbnailForPath:[listOfPDF objectAtIndex:indexPath.row]];
@@ -150,6 +152,8 @@ static NSString *kDeletePartialTitle = @"Delete (%d)";
     
     return cell;
 }
+
+
 
 /*
  // Override to support conditional editing of the table view.
@@ -221,25 +225,16 @@ static NSString *kDeletePartialTitle = @"Delete (%d)";
         path = [listOfPDF objectAtIndex:indexPath.row];
         [self performSegueWithIdentifier:@"showPDF" sender:self];
         
-//        //create the PSPDF document
-//        NSURL *documentPath = [[NSURL alloc] initFileURLWithPath:path];
-//        PSPDFDocument *document = [PSPDFDocument documentWithURL:documentPath];
-        
-          //Open view controller
+        //Open view controller
         UINavigationController *nc = [self navigationController];
-       
         ShowPDFViewController *show = (ShowPDFViewController*)nc.topViewController;
-        //[show commonInitWithDocument:document];
-        
-//        ShowPDFViewController *show = [ShowPDFViewController alloc];
-//        [show commonInitWithDocument:document];
-//        [self performSegueWithIdentifier:@"showPDF" sender:self];
-//        
-       
+      
+        //display file name
         NSString *docTitle;
         docTitle = [NSString stringWithString:[[[listOfPDF objectAtIndex:indexPath.row] componentsSeparatedByString:mstring] componentsJoinedByString:@""]];
         NSCharacterSet *remove = [NSCharacterSet characterSetWithCharactersInString:@"/"];
         docTitle = [[docTitle componentsSeparatedByCharactersInSet:remove] componentsJoinedByString:@""];
+        docTitle = [[docTitle componentsSeparatedByString:@".pdf"] componentsJoinedByString:@""];
         [show setTitle:docTitle];
     }
     else {
@@ -316,7 +311,7 @@ static NSString *kDeletePartialTitle = @"Delete (%d)";
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 100;
+    return 105;
 }
 
 

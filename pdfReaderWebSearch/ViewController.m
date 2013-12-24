@@ -110,6 +110,27 @@
     [searchEngines addObject:search];
     
     search = [[SearchType alloc]init];
+    [search setEngineName:@"TED (Video)"];
+    [search setSearchURL:@"http://www.ted.com/search?cat=ss_all&q="];
+    [search setSearchDescription:@"TED | Ideas Worth Inspiring"];
+    [search setAdditionalSearchParameters:@""];
+    [searchEngines addObject:search];
+    
+    search = [[SearchType alloc]init];
+    [search setEngineName:@"Academic Earth"];
+    [search setSearchURL:@"http://academicearth.org/?s="];
+    [search setSearchDescription:@"Academic Earth"];
+    [search setAdditionalSearchParameters:@""];
+    [searchEngines addObject:search];
+    
+    search = [[SearchType alloc]init];
+    [search setEngineName:@"cK-12"];
+    [search setSearchURL:@"http://www.ck12.org/search/?q="];
+    [search setSearchDescription:@"cK-12"];
+    [search setAdditionalSearchParameters:@""];
+    [searchEngines addObject:search];
+    
+    search = [[SearchType alloc]init];
     [search setEngineName:@"TIME for Kids"];
     [search setSearchURL:@"http://timeforkids.com/search/site/"];
     [search setSearchDescription:@"TIME for Kids"];
@@ -132,7 +153,7 @@
     
     search = [[SearchType alloc]init];
     [search setEngineName:@"RefSeek"];
-    [search setSearchURL:@"http://www.refseek.com/search?q="];
+    [search setSearchURL:@"http://www.refseek.com/documents?q="];
     [search setSearchDescription:@"RefSeek"];
     [search setAdditionalSearchParameters:@""];
     [searchEngines addObject:search];

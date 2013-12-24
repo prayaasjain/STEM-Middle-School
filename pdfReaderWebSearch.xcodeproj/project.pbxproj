@@ -19,14 +19,19 @@
 		D835A01D185654CB004CD54C /* introScreen-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = D835A01B185654CB004CD54C /* introScreen-Landscape.png */; };
 		D835A01E185654CB004CD54C /* introScreen-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = D835A01C185654CB004CD54C /* introScreen-Portrait.png */; };
 		D871F34B17BD7A4000A41339 /* bg_wood.png in Resources */ = {isa = PBXBuildFile; fileRef = D871F34A17BD7A4000A41339 /* bg_wood.png */; };
-		D8A2308A17B573E80076300E /* STEM-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A2308917B573E80076300E /* STEM-app-icon.png */; };
-		D8A2308C17B573F80076300E /* STEM-app-icon-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A2308B17B573F80076300E /* STEM-app-icon-retina.png */; };
+		D8B515B918610E95002F9113 /* stem-juniors-app_icon-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B515B718610E95002F9113 /* stem-juniors-app_icon-retina.png */; };
+		D8B515BA18610E95002F9113 /* stem-juniors-app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B515B818610E95002F9113 /* stem-juniors-app_icon.png */; };
 		D8BFB89F180CACE0002DA2E0 /* PSPDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BFB896180CACE0002DA2E0 /* PSPDFKit.framework */; };
 		D8BFB8A0180CACE0002DA2E0 /* PSPDFKit-Acknowledgements in Resources */ = {isa = PBXBuildFile; fileRef = D8BFB898180CACE0002DA2E0 /* PSPDFKit-Acknowledgements */; };
 		D8BFB8A1180CACE0002DA2E0 /* PSPDFKit-License in Resources */ = {isa = PBXBuildFile; fileRef = D8BFB899180CACE0002DA2E0 /* PSPDFKit-License */; };
 		D8BFB8A2180CACE0002DA2E0 /* PSPDFKit-License.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D8BFB89A180CACE0002DA2E0 /* PSPDFKit-License.pdf */; };
 		D8BFB8A4180CACE0002DA2E0 /* PSPDFKit-Version in Resources */ = {isa = PBXBuildFile; fileRef = D8BFB89C180CACE0002DA2E0 /* PSPDFKit-Version */; };
 		D8BFB8A5180CACE0002DA2E0 /* PSPDFKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8BFB89D180CACE0002DA2E0 /* PSPDFKit.bundle */; };
+		D8C1FF0C1868DB6400FF3776 /* whitebookshelfbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C1FF0B1868DB6400FF3776 /* whitebookshelfbg.jpg */; };
+		D8C1FF0E1868EC8300FF3776 /* bookshelfbg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C1FF0D1868EC8300FF3776 /* bookshelfbg2.jpg */; };
+		D8C1FF101869008E00FF3776 /* bookshelfbg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C1FF0F1869008D00FF3776 /* bookshelfbg3.jpg */; };
+		D8C1FF1418690A0B00FF3776 /* bookshelfbg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C1FF1318690A0B00FF3776 /* bookshelfbg4.jpg */; };
+		D8C1FF1618690D9400FF3776 /* bookshelfbg5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C1FF1518690D9400FF3776 /* bookshelfbg5.jpg */; };
 		D8D1F7941770D2840011A103 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D1F7931770D2840011A103 /* UIKit.framework */; };
 		D8D1F7961770D2840011A103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D1F7951770D2840011A103 /* Foundation.framework */; };
 		D8D1F7981770D2840011A103 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D1F7971770D2840011A103 /* CoreGraphics.framework */; };
@@ -62,8 +67,8 @@
 		D835A01B185654CB004CD54C /* introScreen-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introScreen-Landscape.png"; sourceTree = "<group>"; };
 		D835A01C185654CB004CD54C /* introScreen-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introScreen-Portrait.png"; sourceTree = "<group>"; };
 		D871F34A17BD7A4000A41339 /* bg_wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_wood.png; sourceTree = "<group>"; };
-		D8A2308917B573E80076300E /* STEM-app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "STEM-app-icon.png"; sourceTree = "<group>"; };
-		D8A2308B17B573F80076300E /* STEM-app-icon-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "STEM-app-icon-retina.png"; sourceTree = "<group>"; };
+		D8B515B718610E95002F9113 /* stem-juniors-app_icon-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stem-juniors-app_icon-retina.png"; sourceTree = "<group>"; };
+		D8B515B818610E95002F9113 /* stem-juniors-app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stem-juniors-app_icon.png"; sourceTree = "<group>"; };
 		D8BFB896180CACE0002DA2E0 /* PSPDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PSPDFKit.framework; sourceTree = "<group>"; };
 		D8BFB898180CACE0002DA2E0 /* PSPDFKit-Acknowledgements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PSPDFKit-Acknowledgements"; sourceTree = "<group>"; };
 		D8BFB899180CACE0002DA2E0 /* PSPDFKit-License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PSPDFKit-License"; sourceTree = "<group>"; };
@@ -72,6 +77,11 @@
 		D8BFB89C180CACE0002DA2E0 /* PSPDFKit-Version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PSPDFKit-Version"; sourceTree = "<group>"; };
 		D8BFB89D180CACE0002DA2E0 /* PSPDFKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PSPDFKit.bundle; sourceTree = "<group>"; };
 		D8BFB89E180CACE0002DA2E0 /* PSPDFKit.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PSPDFKit.xcconfig; sourceTree = "<group>"; };
+		D8C1FF0B1868DB6400FF3776 /* whitebookshelfbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whitebookshelfbg.jpg; sourceTree = "<group>"; };
+		D8C1FF0D1868EC8300FF3776 /* bookshelfbg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookshelfbg2.jpg; sourceTree = "<group>"; };
+		D8C1FF0F1869008D00FF3776 /* bookshelfbg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookshelfbg3.jpg; sourceTree = "<group>"; };
+		D8C1FF1318690A0B00FF3776 /* bookshelfbg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookshelfbg4.jpg; sourceTree = "<group>"; };
+		D8C1FF1518690D9400FF3776 /* bookshelfbg5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookshelfbg5.jpg; sourceTree = "<group>"; };
 		D8D1F7901770D2840011A103 /* STEM Juniors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEM Juniors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D1F7931770D2840011A103 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8D1F7951770D2840011A103 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -141,8 +151,8 @@
 		D8D1F7871770D2840011A103 = {
 			isa = PBXGroup;
 			children = (
-				D8A2308B17B573F80076300E /* STEM-app-icon-retina.png */,
-				D8A2308917B573E80076300E /* STEM-app-icon.png */,
+				D8B515B718610E95002F9113 /* stem-juniors-app_icon-retina.png */,
+				D8B515B818610E95002F9113 /* stem-juniors-app_icon.png */,
 				D8D1F7991770D2840011A103 /* pdfReaderWebSearch */,
 				D8D1F7921770D2840011A103 /* Frameworks */,
 				D8D1F7911770D2840011A103 /* Products */,
@@ -199,6 +209,11 @@
 		D8D1F79A1770D2840011A103 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8C1FF1518690D9400FF3776 /* bookshelfbg5.jpg */,
+				D8C1FF1318690A0B00FF3776 /* bookshelfbg4.jpg */,
+				D8C1FF0F1869008D00FF3776 /* bookshelfbg3.jpg */,
+				D8C1FF0D1868EC8300FF3776 /* bookshelfbg2.jpg */,
+				D8C1FF0B1868DB6400FF3776 /* whitebookshelfbg.jpg */,
 				D835A01B185654CB004CD54C /* introScreen-Landscape.png */,
 				D835A01C185654CB004CD54C /* introScreen-Portrait.png */,
 				D8D794F418356C2600EDF7B3 /* websearch.png */,
@@ -281,18 +296,23 @@
 				D8D1F7A61770D2850011A103 /* Default.png in Resources */,
 				D8D1F7A81770D2850011A103 /* Default@2x.png in Resources */,
 				D8D1F7AA1770D2850011A103 /* Default-568h@2x.png in Resources */,
+				D8C1FF1418690A0B00FF3776 /* bookshelfbg4.jpg in Resources */,
 				D8D1F7AD1770D2850011A103 /* MainStoryboard.storyboard in Resources */,
 				00963C7117739DA40059C226 /* sample.pdf in Resources */,
+				D8C1FF101869008E00FF3776 /* bookshelfbg3.jpg in Resources */,
 				D8BFB8A5180CACE0002DA2E0 /* PSPDFKit.bundle in Resources */,
-				D8A2308A17B573E80076300E /* STEM-app-icon.png in Resources */,
 				D835A01D185654CB004CD54C /* introScreen-Landscape.png in Resources */,
-				D8A2308C17B573F80076300E /* STEM-app-icon-retina.png in Resources */,
 				D871F34B17BD7A4000A41339 /* bg_wood.png in Resources */,
+				D8B515B918610E95002F9113 /* stem-juniors-app_icon-retina.png in Resources */,
 				D8BFB8A1180CACE0002DA2E0 /* PSPDFKit-License in Resources */,
 				D809B99E17BEAB100011220B /* green-board.png in Resources */,
+				D8C1FF1618690D9400FF3776 /* bookshelfbg5.jpg in Resources */,
 				D8BFB8A4180CACE0002DA2E0 /* PSPDFKit-Version in Resources */,
+				D8C1FF0C1868DB6400FF3776 /* whitebookshelfbg.jpg in Resources */,
+				D8C1FF0E1868EC8300FF3776 /* bookshelfbg2.jpg in Resources */,
 				D835A01E185654CB004CD54C /* introScreen-Portrait.png in Resources */,
 				D809B9AC17C41DB40011220B /* button-green.png in Resources */,
+				D8B515BA18610E95002F9113 /* stem-juniors-app_icon.png in Resources */,
 				D809B9AE17C41FAE0011220B /* button-green-wide.png in Resources */,
 				D8BFB8A0180CACE0002DA2E0 /* PSPDFKit-Acknowledgements in Resources */,
 				D8D794F718356C2600EDF7B3 /* websearch@2x.png in Resources */,
