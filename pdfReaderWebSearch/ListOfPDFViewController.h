@@ -12,8 +12,9 @@
 
 @interface ListOfPDFViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource, UINavigationControllerDelegate,UIAlertViewDelegate, UIActionSheetDelegate> {
     
-    bool editButtonToggle;
+    BOOL editButtonToggle;
     int numOfSelectedRows;
+    BOOL isPortraitView;
 }
 
 @property NSMutableArray *listOfPDF;

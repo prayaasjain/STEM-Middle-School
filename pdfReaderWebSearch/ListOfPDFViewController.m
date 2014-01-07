@@ -49,12 +49,13 @@ static NSString *kDeletePartialTitle = @"Delete (%d)";
     [self setRestorationIdentifier:@"list"];
     
     self.tableView.separatorColor = [UIColor clearColor];
-    backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bookshelfbg4.jpg"]];
     
+    backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bgmain_portrait.png"]];
     self.tableView.backgroundView = backgroundImage;
+    
     self.navigationController.navigationBar.topItem.prompt = @"The STEM Education Group";
     self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
-    [self setTitle:@"Documents"];
+    [self setTitle:@"My Books"];
     loadFromSite = false;
     
     [self loadArray];
@@ -153,7 +154,25 @@ static NSString *kDeletePartialTitle = @"Delete (%d)";
     return cell;
 }
 
+- (void)setOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    if (UIInterfaceOrientationIsPortrait(interfaceOrientation))
+    {
+        isPortraitView = YES;
+        backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bgmain_portrait.png"]];
+        self.tableView.backgroundView = backgroundImage;
+    }
+    else
+    {
+        isPortraitView = NO;
+        backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bgmain_landscape2.png"]];
+        self.tableView.backgroundView = backgroundImage;
+    }
+}
 
+-(void) willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
+    [self setOrientation:toInterfaceOrientation];
+}
 
 /*
  // Override to support conditional editing of the table view.
@@ -236,6 +255,7 @@ static NSString *kDeletePartialTitle = @"Delete (%d)";
         docTitle = [[docTitle componentsSeparatedByCharactersInSet:remove] componentsJoinedByString:@""];
         docTitle = [[docTitle componentsSeparatedByString:@".pdf"] componentsJoinedByString:@""];
         [show setTitle:docTitle];
+        
     }
     else {
         NSArray *selectedRows = [self.tableView indexPathsForSelectedRows];
